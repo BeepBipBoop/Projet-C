@@ -1,0 +1,16 @@
+#include <stdio.h>
+#Fait sur https://www.onlinegdb.com/online_c_compiler 
+#objectif : comprendre les adresse mémoires et  les pointeurs
+
+int main()
+{
+    
+int score = 50;
+int *ptr = &score;
+*ptr = 100;
+
+printf("le score est de %d",score);
+
+
+    
+}
