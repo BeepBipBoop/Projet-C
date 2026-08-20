@@ -1,0 +1,11 @@
+#include <stdio.h>
+#Fait sur https://www.onlinegdb.com/online_c_compiler 
+#objectif : comprendre la synthaxe et les les spécificateurs
+int main()
+{
+
+int age = 20;
+char initiale = 'E';
+printf("Mon initiale est %c et j'ai %d.", initiale, age);
+return 0; 
+}
